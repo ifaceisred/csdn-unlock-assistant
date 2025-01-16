@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "CSDN解锁助手",
+  "version": "1.0",
+  "description": "解除CSDN网页未登录是复制限制，免关注阅读全文",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "CSDN解锁助手"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.csdn.net/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+} 
