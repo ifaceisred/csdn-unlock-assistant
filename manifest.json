@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "CSDN解锁助手",
   "version": "1.0",
-  "description": "解除CSDN网页未登录是复制限制，免关注阅读全文",
+  "description": "解除CSDN网页未登录时复制限制，免关注阅读全文",
   "permissions": [
     "activeTab",
     "scripting"
